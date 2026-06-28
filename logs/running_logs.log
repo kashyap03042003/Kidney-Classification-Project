@@ -1,0 +1,174 @@
+[2026-06-27 13:36:13,435: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-27 13:36:13,436: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-27 13:36:13,436: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/utils/common.py", line 31, in read_yaml
+    return ConfigBox(content)
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 259, in __init__
+    raise BoxValueError("First argument must be mapping or iterable")
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/main.py", line 10, in <module>
+    obj.main()
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/pipeline/stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/config/configuration.py", line 11, in __init__
+    self.config = read_yaml(config_file_path)
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/utils/common.py", line 33, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2026-06-27 13:36:53,936: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-27 13:36:53,936: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-27 13:36:53,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-27 13:36:53,937: INFO: common: created directory at: artifacts]
+[2026-06-27 13:36:53,937: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-27 13:36:53,937: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-27 13:37:11,670: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-27 13:37:11,904: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-28 15:57:53,272: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-28 15:57:53,272: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-28 15:57:53,273: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-28 15:57:53,273: INFO: common: created directory at: artifacts]
+[2026-06-28 15:57:53,273: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-28 15:57:53,273: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-28 15:58:19,686: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-28 15:58:19,943: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-28 16:37:35,462: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-28 16:37:35,463: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-28 16:37:35,464: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-28 16:37:35,464: INFO: common: created directory at: artifacts]
+[2026-06-28 16:37:35,464: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-28 16:37:35,464: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-28 16:43:33,053: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-28 16:43:33,054: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-28 16:43:33,055: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-28 16:43:33,055: INFO: common: created directory at: artifacts]
+[2026-06-28 16:43:33,055: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-28 16:43:33,055: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-28 16:43:53,785: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-28 16:43:54,035: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-28 16:43:54,035: INFO: main: >>>>>> stage Prepare Base Model started <<<<<<]
+[2026-06-28 16:43:54,035: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-28 16:43:54,036: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-28 16:43:54,036: INFO: common: created directory at: artifacts]
+[2026-06-28 16:43:54,036: ERROR: main: "'ConfigBox' object has no attribute 'prepare_base_model'"]
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'prepare_base_model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'prepare_base_model'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'prepare_base_model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'prepare_base_model'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'prepare_base_model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'prepare_base_model'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'prepare_base_model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/main.py", line 23, in <module>
+    obj.main()
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/pipeline/stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/config/configuration.py", line 33, in get_prepare_base_model_config
+    config = self.config.prepare_base_model
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'prepare_base_model'"
+[2026-06-28 16:46:35,883: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-28 16:46:35,884: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-28 16:46:35,885: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-28 16:46:35,885: INFO: common: created directory at: artifacts]
+[2026-06-28 16:46:35,885: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-28 16:46:35,885: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-28 16:46:51,914: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-28 16:46:52,162: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-28 16:46:52,162: INFO: main: >>>>>> stage Prepare Base Model started <<<<<<]
+[2026-06-28 16:46:52,163: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-28 16:46:52,163: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-28 16:46:52,163: INFO: common: created directory at: artifacts]
+[2026-06-28 16:46:52,163: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-06-28 16:46:52,163: ERROR: main: PrepareBaseModelConfig.__init__() got an unexpected keyword argument 'updated_base_model_path']
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/main.py", line 23, in <module>
+    obj.main()
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/pipeline/stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/config/configuration.py", line 37, in get_prepare_base_model_config
+    prepare_base_model_config = PrepareBaseModelConfig(
+TypeError: PrepareBaseModelConfig.__init__() got an unexpected keyword argument 'updated_base_model_path'
+[2026-06-28 16:47:24,800: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-28 16:47:24,801: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-28 16:47:24,802: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-28 16:47:24,802: INFO: common: created directory at: artifacts]
+[2026-06-28 16:47:24,802: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-28 16:47:24,802: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-28 16:47:37,369: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-28 16:47:37,611: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-28 16:47:37,611: INFO: main: >>>>>> stage Prepare Base Model started <<<<<<]
+[2026-06-28 16:47:37,612: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-06-28 16:47:37,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-28 16:47:37,612: INFO: common: created directory at: artifacts]
+[2026-06-28 16:47:37,612: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-06-28 16:47:37,759: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-28 16:47:37,793: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-28 16:47:37,816: INFO: main: >>>>>> stage Prepare Base Model completed <<<<<<
+
+x==========x]
