@@ -6,8 +6,10 @@ Home-page: https://github.com/Kashyap/Production-Ready-Deep-Learning-Project
 Author: Kashyap
 Author-email: krishna.kashyap50@gmail.com
 Project-URL: Bug Tracker, https://github.com/Kashyap/Production-Ready-Deep-Learning-Project/issues
+License-File: LICENSE
 Dynamic: author
 Dynamic: author-email
 Dynamic: home-page
+Dynamic: license-file
 Dynamic: project-url
 Dynamic: summary

@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 src/kidneyClassifier.egg-info/PKG-INFO
@@ -7,6 +8,8 @@ src/kidneyClassifier.egg-info/top_level.txt
 src/kindneyClassifier/__init__.py
 src/kindneyClassifier/components/__init__.py
 src/kindneyClassifier/components/data_ingestion.py
+src/kindneyClassifier/components/model_trainer.py
+src/kindneyClassifier/components/prepare_base_model.py
 src/kindneyClassifier/config/__init__.py
 src/kindneyClassifier/config/configuration.py
 src/kindneyClassifier/constants/__init__.py
@@ -14,5 +17,7 @@ src/kindneyClassifier/entity/__init__.py
 src/kindneyClassifier/entity/config_entity.py
 src/kindneyClassifier/pipeline/__init__.py
 src/kindneyClassifier/pipeline/stage_01_data_ingestion.py
+src/kindneyClassifier/pipeline/stage_02_prepare_base_model.py
+src/kindneyClassifier/pipeline/stage_03_model_trainer.py
 src/kindneyClassifier/utils/__init__.py
 src/kindneyClassifier/utils/common.py
