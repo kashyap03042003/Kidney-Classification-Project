@@ -405,3 +405,112 @@ x==========x]
 [2026-07-01 16:44:21,112: INFO: main: >>>>>> stage Model Evaluation completed <<<<<<
 
 x==========x]
+[2026-07-02 16:41:49,483: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-07-02 16:41:49,484: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-07-02 16:41:49,484: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-07-02 16:41:49,484: INFO: common: created directory at: artifacts]
+[2026-07-02 16:41:49,484: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-07-02 16:41:49,484: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-07-02 16:42:04,962: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-07-02 16:42:05,203: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-07-02 16:42:23,091: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-07-02 16:42:23,092: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-07-02 16:42:23,092: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-07-02 16:42:23,092: INFO: common: created directory at: artifacts]
+[2026-07-02 16:42:23,093: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-07-02 16:42:23,093: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-07-02 16:42:35,961: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-07-02 16:42:36,202: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-07-02 16:43:16,364: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-07-02 16:43:16,365: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-07-02 16:43:16,365: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-07-02 16:43:16,365: INFO: common: created directory at: artifacts]
+[2026-07-02 16:43:16,365: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-07-02 16:43:16,365: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-07-02 16:43:29,676: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-07-02 16:43:29,917: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-07-02 16:45:43,394: INFO: stage_02_prepare_base_model: *******************]
+[2026-07-02 16:45:43,396: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2026-07-02 16:45:43,397: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-07-02 16:45:43,398: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-07-02 16:45:43,398: INFO: common: created directory at: artifacts]
+[2026-07-02 16:45:43,398: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-07-02 16:45:43,537: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-07-02 16:45:43,568: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-07-02 16:45:43,586: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-07-02 16:46:22,459: INFO: stage_02_prepare_base_model: *******************]
+[2026-07-02 16:46:22,460: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2026-07-02 16:46:22,460: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-07-02 16:46:22,460: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-07-02 16:46:22,461: INFO: common: created directory at: artifacts]
+[2026-07-02 16:46:22,461: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-07-02 16:46:22,578: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-07-02 16:46:22,611: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-07-02 16:46:22,630: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-07-02 16:46:24,838: INFO: stage_03_model_trainer: *******************]
+[2026-07-02 16:46:24,838: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2026-07-02 16:46:24,839: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-07-02 16:46:24,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-07-02 16:46:24,839: INFO: common: created directory at: artifacts]
+[2026-07-02 16:46:24,839: INFO: common: created directory at: artifacts/training]
+[2026-07-02 16:46:24,901: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-07-02 16:46:25,159: ERROR: stage_03_model_trainer: Arguments `target` and `output` must have the same shape. Received: target.shape=(None, 3), output.shape=(None, 2)]
+Traceback (most recent call last):
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/pipeline/stage_03_model_trainer.py", line 28, in <module>
+    obj.main()
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/pipeline/stage_03_model_trainer.py", line 19, in main
+    training.train()
+  File "/Users/kashyappasumarthi/Desktop/end to end dl project/src/kindneyClassifier/components/model_trainer.py", line 78, in train
+    self.model.fit(
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/Users/kashyappasumarthi/anaconda3/envs/kidney/lib/python3.10/site-packages/keras/src/backend/tensorflow/nn.py", line 669, in categorical_crossentropy
+    raise ValueError(
+ValueError: Arguments `target` and `output` must have the same shape. Received: target.shape=(None, 3), output.shape=(None, 2)
+[2026-07-02 16:47:06,611: INFO: stage_03_model_trainer: *******************]
+[2026-07-02 16:47:06,611: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2026-07-02 16:47:06,612: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-07-02 16:47:06,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-07-02 16:47:06,612: INFO: common: created directory at: artifacts]
+[2026-07-02 16:47:06,612: INFO: common: created directory at: artifacts/training]
+[2026-07-02 16:47:06,672: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-07-02 16:47:31,149: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-07-02 16:47:31,176: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-07-02 16:47:33,876: INFO: stage_04_model_evaluation: *******************]
+[2026-07-02 16:47:33,876: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-07-02 16:47:33,877: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-07-02 16:47:33,877: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-07-02 16:47:33,877: INFO: common: created directory at: artifacts]
+[2026-07-02 16:47:33,943: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-07-02 16:47:41,681: INFO: common: json file saved at: scores.json]
+[2026-07-02 16:47:41,682: INFO: common: json file saved at: scores.json]
+[2026-07-02 16:48:21,072: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-07-02 16:51:41,211: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.5:8080]
+[2026-07-02 16:51:41,211: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-07-02 16:52:09,654: INFO: _internal: 127.0.0.1 - - [02/Jul/2026 16:52:09] "GET / HTTP/1.1" 200 -]
+[2026-07-02 16:52:22,417: INFO: _internal: 127.0.0.1 - - [02/Jul/2026 16:52:22] "GET / HTTP/1.1" 200 -]
+[2026-07-02 16:52:29,012: INFO: _internal: 127.0.0.1 - - [02/Jul/2026 16:52:29] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2026-07-02 16:53:17,965: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.5:8080]
+[2026-07-02 16:53:17,965: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-07-02 16:53:23,177: INFO: _internal: 127.0.0.1 - - [02/Jul/2026 16:53:23] "GET / HTTP/1.1" 200 -]
+[2026-07-02 16:57:17,986: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
